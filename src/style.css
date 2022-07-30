@@ -51,7 +51,7 @@ transition: all 0.3s;
 display: none;
 }
 
-@media screen and (max-width:768px), (max-width:1042px), (max-width:1526px) {
+@media screen and (max-width:768px), (max-width:1042px), (max-width:1526px), (max-width: 390px) {
     body {
         overflow-x: hidden;
     }
@@ -73,7 +73,7 @@ display: none;
         cursor: pointer;
     }
 
-    .nav-container {
+    .nav-container div{
         display: block;
     }
 }
